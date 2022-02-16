@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <meta name="description" content="Music Vibes">
+      <meta name="author" content="Isma">
+      <meta charset="utf-8">
+      <meta name="keywords" content="Music Web">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Music Vibes</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+  <div class="container">
+    <nav class="nav-main">
+      <img src="images/nota1.jpg" alt="nota musical" class="nav-reci">
+      <ul class="nav-menu">
+        <li>
+           <a href="images/Guitarristas.html">Guitarristas</a>
+        </li>
+        <li>
+          <a href="#">Bajistas</a>
+        </li>
+        <li>
+          <a href="#">Bateristas</a>
+        </li>
+        <li>
+          <a href="#">Tecladistas</a>
+        </li>
+        <li>
+          <a href="#">Cuartetos</a>
+        </li>
+        <li>
+          <a href="#">Trios</a>
+        </li>
+        <li>
+          <a href="#">Solistas</a>
+        </li>
+        <li>
+          <a href="images/subcribirse.html">Subcribirse</a>
+        </li>
+      </ul>
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+    <header class="showcase">
+      <h2>Nuevas Bandas Under!</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolor laudantium rerum, excepturi est praesentium
+        natus qui? Tempora rerum, numquam inventore eligendi in, nostrum reprehenderit, eum cumque fugit eaque
+        similique!</p>
+      <a href="#" class="btn">
+        Entrar<i class="fas fa-chevron-right"></i>
+      </a>
+    </header>
+
+    <div class="nuevas-imagenes">
+      <div>
+        <img src="images/girlguitar.jpg" alt="" />
+        <h3>Nuevas guitarristas</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Ver mas... <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="images/Dj.jpg" alt="" />
+        <h3>Nuevos Dj's</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Ver mas... <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="images/instruments.jpg" alt="" />
+        <h3>Lutthiers</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Ver mas... <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="images/trompeta.jpg" alt="" />
+        <h3>Trompetas del Mundo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Ver mas... <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+    <div class="social">
+    <ul>
+      <li><a href="http://www.facebook.com" target="_blank" class="icon-facebook"></a></li>
+      <li><a href="http://www.twitter.com" target="_blank" class="icon-twitter"></a></li>
+      <li><a href="http://www.googleplus.com" target="_blank" class="icon-googleplus"></a></li>
+      <li><a href="http://www.pinterest.com" target="_blank" class="icon-pinterest"></a></li>
+      <li><a href="mailto:ismaelcastagna@gmail.com" class="icon-mail"></a></li>
+    </ul>
+  </div>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>Music Vibes Derechos Reservados</h3>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
